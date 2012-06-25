@@ -137,8 +137,8 @@
                     <li><strong>Identidad del proceso</strong>
                         <ul>
                             <li> Id: Especifíca al sistema acerca de los procesos cuando una aplicación realiza una llamada.</li>
-                            <li>Credenciales</li>
-                            <li>Personalidad</li>
+                            <li>Credenciales: Determina los derechos de un proceso para acceder a archivos o a recursos.</li>
+                            <li>Personalidad: Puede modificar la semantica de ciertas llamadas al sistema.</li>
                         </ul>
                     </li>
                 </ul>
@@ -146,7 +146,10 @@
                     <li><strong>Entorno:</strong>
                         <ul>
                             <li>Se hereda del proceso padre</li>
-                            <li>Compuesto por dos vectores: El vector de argumentos y el vector de entornos</li>
+                            <li>Compuesto por dos vectores: El vector de argumentos, 
+                            que enumera los argumentos de linea de comando para invocar al programa 
+                            y el vector de entornos, que asocia el nombre de una serie de variables de 
+                            entorno con sus correspondientes valores.</li>
                         </ul>
                     </li>
                 </ul>
